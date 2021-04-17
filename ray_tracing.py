@@ -88,10 +88,10 @@ def main():
     box_number = 100
     box_size = 20
     shadow_color = (32, 32, 32)
-    window_size = (800, 600)
 #==================================================
 
     pygame.init()
+    window_size = (800, 600)
     window = pygame.display.set_mode(window_size)
     loop = True
     clock = pygame.time.Clock()

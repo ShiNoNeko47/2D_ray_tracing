@@ -24,7 +24,7 @@ def main():
         boxes[str(i)] = Box(box_size, window_size)
 
     cursor_pos = (0, 0)
-    light_img = pygame.image.load('assets/Ligth_point.png')
+    light_img = pygame.image.load('Ligth_point.png')
 
     while loop:
         for event in pygame.event.get():
